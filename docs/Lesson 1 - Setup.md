@@ -53,15 +53,15 @@ Since you're on a MacBook M3 Max, we'll use Xcode's command-line tools for the G
 ### 3. Write Your First C Program
 Let’s create a simple program that prints a *Dungeon Crawler Carl*-inspired welcome message. This introduces C’s basic structure, which differs from C#’s object-oriented setup.
 
-<xaiArtifact artifact_id="93ada349-e488-4313-aaee-af23ed8fb9b9" artifact_version_id="cbf709bc-84cd-4a04-8daf-68f678ba89ba" title="main.c" contentType="text/x-csrc">
+```c
 #include <stdio.h>
 
 int main() {
-printf("Welcome to Carl's Dungeon Crawler!\n");
-printf("Prepare for absurd loot and deadly donuts...\n");
-return 0;
+  printf("Welcome to Carl's Dungeon Crawler!\n");
+  printf("Prepare for absurd loot and deadly donuts...\n");
+  return 0;
 }
-</xaiArtifact>
+```
 
 **Explanation**:
 - `#include <stdio.h>`: Imports the standard input/output library, like `System` in C#.
